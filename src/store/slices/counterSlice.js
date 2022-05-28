@@ -6,10 +6,10 @@ const CounterSlice = createSlice({
         value : 0
     },
     reducers : {
-        increment : (state) => {
+        increment : (state, payload = 1) => {
             state.value += 1
         },
-        decrement : (state) => {
+        decrement : (state, payload = 1) => {
             state.value -= 1
         }
     }
