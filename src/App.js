@@ -1,9 +1,8 @@
+import Counter from "./components/counter";
 
 function App() {
   return (
-    <h1 className="text-3xl font-bold">
-      به نام خدا
-    </h1>
+    <Counter />
   );
 }
 
